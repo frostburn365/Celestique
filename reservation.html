@@ -1,0 +1,61 @@
+<div class="page-wrapper">
+
+  <section class="booking-section-outer">
+    
+    <h2 class="section-title booking-page-title">Booking & RSVP</h2>
+
+    <div class="booking-section">
+      <form class="booking-form">
+        
+        <div class="form-group">
+          <ion-icon name="person-outline"></ion-icon>
+          <select id="adults" aria-label="Number of adults"></select>
+        </div>
+        
+        <div class="form-group">
+          <ion-icon name="happy-outline"></ion-icon>
+          <select id="children" aria-label="Number of children"></select>
+        </div>
+
+        <div class="form-group">
+          <ion-icon name="calendar-outline"></ion-icon>
+          <input type="date" id="booking-date" aria-label="Booking date" />
+        </div>
+
+        <div class="form-group">
+          <ion-icon name="time-outline"></ion-icon>
+          <select id="booking-time" aria-label="Booking time"></select>
+        </div>
+
+        <div class="form-group">
+          <ion-icon name="storefront-outline"></ion-icon>
+          <select id="area" aria-label="Seating area">
+            <option>Main Hall</option>
+            <option>Private Room</option>
+            <option>The Ember Courtyard (Al Fresco Bar)</option>
+          </select>
+        </div>
+
+        <div class="rules">
+          <strong>House Rule</strong>
+          <ul>
+            <li>Please note that per restaurant's policy, the table cannot be hold for longer than 15 minutes past your expected arrival time, unless otherwise notified.</li>
+            <li>Outside Food & Beverages are not allowed.</li>
+            <li>No pets are allowed within the restaurant.</li>
+            <li>A maximum of 2 (two) hours dining time is applicable every Friday, Saturday & Sunday.</li>
+            <li>Please contact the restaurant directly for group bookings.</li>
+          </ul>
+        </div>
+
+        <div class="form-check">
+          <input type="checkbox" id="agree" />
+          <label for="agree">I have read and agree to the terms and conditions.</label>
+        </div>
+
+        <button type="submit" id="nextBtn" disabled>Next</button>
+        
+      </form>
+    </div>
+  </section>
+
+</div>

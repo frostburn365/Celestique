@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Celestique</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Tiny5&family=Italiana&display=swap" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <!-- Musik tetap hidup -->
+  <audio id="bg-music" autoplay loop>
+    <source src="AssetsCelestique/Easy Living.mp3" type="audio/mpeg" />
+  </audio>
+
+  <div id="welcome-overlay">
+  <button onclick="enterSite()">Enter Celestique</button>
+  </div>
+
+  <div id="navbar"></div>
+  <main id="content"></main>
+  <div id="footer"></div>
+
+  <script src="bgMusic.js"></script>
+  <script src="gallery.js"></script>
+  <script src="booking.js"></script>
+</body>
+</html>
