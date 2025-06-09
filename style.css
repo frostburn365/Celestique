@@ -474,12 +474,13 @@ a {
   padding: 0 1rem;
 }
 
-  .booking-form .name-textfield {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: border-color 0.3s ease;
-  }
+.booking-form .name-textfield {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 0.3s ease;
+  width: 100% ;
+}
 
 .booking-form select,
 .booking-form input[type="date"] {
