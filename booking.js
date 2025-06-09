@@ -1,4 +1,5 @@
 function initBookingForm() {
+  const NameSelect = document.getElementById("name");
   const adultsSelect = document.getElementById("adults");
   const childrenSelect = document.getElementById("children");
   const dateInput = document.getElementById("booking-date");
@@ -8,7 +9,7 @@ function initBookingForm() {
   const nextBtn = document.getElementById("nextBtn");
   const bookingForm = document.querySelector(".booking-form");
 
-  if (!adultsSelect || !dateInput || !timeSelect || !agreeCheckbox || !nextBtn || !bookingForm || !areaSelect) {
+  if (!NameSelect || !adultsSelect || !dateInput || !timeSelect || !agreeCheckbox || !nextBtn || !bookingForm || !areaSelect) {
     console.error("Satu atau lebih elemen form booking tidak ditemukan.");
     return;
   }
