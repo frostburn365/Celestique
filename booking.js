@@ -33,13 +33,14 @@ function initBookingForm() {
   bookingForm.addEventListener("submit", e => {
     e.preventDefault();
     const bookingData = {
+      name: NameSelect.value,
       adults: adultsSelect.value,
       children: childrenSelect.value,
       date: dateInput.value,
       time: timeSelect.value,
       area: areaSelect.value
     };
-    alert(`Booking Details:\n- Guests: ${bookingData.adults}, ${bookingData.children}\n- Date: ${bookingData.date}\n- Time: ${bookingData.time}\n- Area: ${bookingData.area}\n\nThank you!`);
+    alert(`Booking Details:\n- Name: ${bookingData.name}\n- Guests: ${bookingData.adults}\n- ${bookingData.children}\n- Date: ${bookingData.date}\n- Time: ${bookingData.time}\n- Area: ${bookingData.area}\n\nThank you!`);
   });
 
   updateAvailableTimes();
