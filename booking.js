@@ -40,7 +40,7 @@ function initBookingForm() {
       time: timeSelect.value,
       area: areaSelect.value
     };
-    alert(`Booking Details:\n- Name: ${bookingData.name}\n- Guests: ${bookingData.adults}\n- ${bookingData.children}\n- Date: ${bookingData.date}\n- Time: ${bookingData.time}\n- Area: ${bookingData.area}\n\nThank you!`);
+    alert(`Booking Details:\n- Name: ${bookingData.name}\n- Guests: ${bookingData.adults}\n- Children: ${bookingData.children}\n- Date: ${bookingData.date}\n- Time: ${bookingData.time}\n- Area: ${bookingData.area}\n\nThank you!`);
   });
 
   updateAvailableTimes();
